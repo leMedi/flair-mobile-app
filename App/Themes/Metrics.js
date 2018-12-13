@@ -2,6 +2,9 @@ import {Dimensions, Platform} from 'react-native'
 
 const { width, height } = Dimensions.get('window')
 
+const hUnit = height / 640;
+const wUnit = width / 360;
+
 // Used via Metrics.baseMargin
 const metrics = {
   marginHorizontal: 10,
@@ -28,7 +31,11 @@ const metrics = {
     medium: 40,
     large: 60,
     logo: 200
-  }
+  },
+
+  // helpers
+  heightUnit: size => size * hUnit,
+  widthUnit: size => size * wUnit,
 }
 
 export default metrics
