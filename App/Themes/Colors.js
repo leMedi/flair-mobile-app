@@ -3,9 +3,12 @@ const colors = {
   primary: '#5282F0',
   secondary: '#566684',
   darkBlue: '#062c80',
+  info: '#3A84FF',
   error: "#FF001F",
   text: "#32335F",
-  placeholder: "#32335F"
+  placeholder: "#32335F",
+
+
 }
 
 export default colors
