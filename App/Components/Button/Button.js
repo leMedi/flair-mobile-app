@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     height: Metrics.heightUnit(48),
     width: Metrics.widthUnit(312),
     borderRadius: Metrics.heightUnit(6),
+    marginBottom: Metrics.heightUnit(10),
   },
   text: {
     textAlign: 'center',

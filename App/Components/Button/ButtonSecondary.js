@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { TouchableOpacity, Text, StyleSheet, ActivityIndicator, View } from 'react-native'
 import { FormattedMessage } from 'react-intl'
-import { Metrics } from '../../Themes'
+import { Metrics, Colors } from '../../Themes'
 
 export default class Button extends Component {
 
@@ -48,12 +48,13 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     borderRadius: Metrics.heightUnit(6),
     borderWidth: 2,
-    borderColor: '#3a84ff'
+    borderColor: Colors.info,
+    marginBottom: Metrics.heightUnit(10),
   },
   text: {
     textAlign: 'center',
     alignSelf: 'center',
-    color: "#3a84ff",
+    color: Colors.info,
     fontWeight: '500',
     fontSize: Metrics.heightUnit(16),
     letterSpacing: 0,
