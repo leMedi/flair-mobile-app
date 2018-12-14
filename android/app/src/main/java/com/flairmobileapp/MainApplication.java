@@ -6,6 +6,7 @@ import com.facebook.react.ReactApplication;
 import com.reactcommunity.rnlanguages.RNLanguagesPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+import com.BV.LinearGradient.LinearGradientPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -28,7 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
           new RNLanguagesPackage(),
           new VectorIconsPackage(),
-          new RNGestureHandlerPackage()
+          new RNGestureHandlerPackage(),
+          new LinearGradientPackage()
       );
     }
 
