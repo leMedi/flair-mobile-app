@@ -23,6 +23,22 @@
   "deviceDetails": "Détails du périphérique",
   "noItems": "Aucun",
 
-  "LOGIN_Title": "Bienvenu",
-  "LOGIN_Description": "Veuillez saisir votre identifiant et votre mot de passe pour accéder à l’espace etudiant"
+  "ERROR_Input_Required": "Ce champs est obligatoire",
+  "ERROR_Text_Login": "Votre identifiant ou votre mot de passe ne correspondent à aucun compte actif",
+  
+  "LOGIN_Title": "Bienvenue",
+  "LOGIN_Description": "Veuillez saisir votre identifiant et votre mot de passe pour accéder à l’espace etudiant",
+  "LOGIN_Input_ID": "Identifiant",
+  "LOGIN_Input_Password": "Saisissez votre mot de passe",
+  "LOGIN_Option_SaveID": "Mémoriser mon identifiant",
+  "LOGIN_Button_Connect": "Me Connecter",
+  "LOGIN_Link_OTHER_ID": "Me connecter via un autre identifiant",
+  "LOGIN_Link_Forgotten_ID": "Identifiant oublié ?",
+  "LOGIN_Link_Forgotten_Password": "Mot de passe oublié ?",
+  "LOGIN_Title_Forgotten_ID": "Identifiant oublié",
+  "LOGIN_Title_Forgotten_Password": "Mot de passe oublié",
+  "LOGIN_Text_New_Client": "Pas encore inscrit? ",
+  "LOGIN_Title_Registre": "Création de compte",
+  "LOGIN_Link_New_Registration": "M'inscrire",
+  "LOGIN_Button_Direct_Services": "Contacts utiles"
 }

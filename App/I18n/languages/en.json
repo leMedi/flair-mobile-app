@@ -26,5 +26,6 @@
 
 
    "LOGIN_Title": "Bienvenu",
-   "LOGIN_Description": "Veuillez saisir votre identifiant et votre mot de passe pour accéder à l’espace etudiant"
+   "LOGIN_Description": "Veuillez saisir votre identifiant et votre mot de passe pour accéder à l’espace etudiant",
+   "LOGIN_Button_Connect": "connect"
 }
