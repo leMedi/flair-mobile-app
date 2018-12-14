@@ -22,5 +22,9 @@
    "themeSettings": "Theme Settings",
    "deviceDetails": "Device Details",
    "noItems": "No Items",
-   "search": "Search"
+   "search": "Search",
+
+
+   "LOGIN_Title": "Bienvenu",
+   "LOGIN_Description": "Veuillez saisir votre identifiant et votre mot de passe pour accéder à l’espace etudiant"
 }

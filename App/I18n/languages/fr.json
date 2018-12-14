@@ -21,5 +21,8 @@
   "apiTesting": "API Testing",
   "themeSettings": "Réglage des thèmes",
   "deviceDetails": "Détails du périphérique",
-  "noItems": "Aucun"
+  "noItems": "Aucun",
+
+  "LOGIN_Title": "Bienvenu",
+  "LOGIN_Description": "Veuillez saisir votre identifiant et votre mot de passe pour accéder à l’espace etudiant"
 }
