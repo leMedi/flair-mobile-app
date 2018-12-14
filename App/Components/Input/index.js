@@ -14,13 +14,13 @@ export const Input = ({innerRef, rightIcon, iconColor, ...props}) => (
         theme={{ colors: { primary, error, text, placeholder } }}
       />
       {
-        props.rightIcon &&
+        rightIcon &&
         <View style={{ justifyContent:'center', alignItems:'center', marginTop: Metrics.heightUnit(20), left: Metrics.screenWidth - Metrics.widthUnit(70), alignItems: 'flex-end', position: 'absolute', justifyContent: 'flex-end' }}>
           <TouchableOpacity style={{height: Metrics.heightUnit(40), width: Metrics.widthUnit(60)}} onPressIn={props.onPressInIcon} onPressOut={props.onPressOutIcon}>
             <Feather
               name={rightIcon}
               size={20}
-              color={iconColor}
+              color={iconColor || text}
             />
           </TouchableOpacity>
         </View>
