@@ -170,7 +170,10 @@ class login extends Component {
                   isLoading={this.props.isLoading}
                   disabled={this.props.isLoading}
                   id="LOGIN_Button_Connect"
-                  onPress={() => handleSubmit(values, this.state.id)}
+                  onPress={() => {
+                    handleSubmit(values, this.state.id)
+                    navigation.navigate('DashboardScreen')
+                  }}
                 />
               </View>
 
@@ -253,6 +256,7 @@ const enhance = compose(
       setSubmitting(false);
 
       // TODO:authenticate user
+      // props.navigation.navigate('DashboardScreen')
     }
   })
 );
